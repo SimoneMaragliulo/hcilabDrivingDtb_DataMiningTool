@@ -12,6 +12,16 @@ The workflow can be described as follows:
 Data file selection and reading  --> Event extraction via path selection (Interactive GUI)  --> Raw signals plotting --> Raw signals basic statistical feature extraction --> Event classification via tags assignment --> New database populating with extracted features and operations metadata
 
 The tool has been developed with Python 3.7.6
+Used packages:
+* numpy
+* pandas
+* os
+* sys
+* matplotlib
+* easygui
+* datetime
+* csv
+* Ad hoc built packages
 
 # Usage instructions
 Before to run: 
@@ -19,7 +29,14 @@ Before to run:
 * Download the data set from https://www.hcilab.org/research/hcilab-driving-dataset/ and unzip it
 * Copy ..\hcilab_driving_dataset\dataset_web folder into ..\Data folder of hcilabDrivingDtb_DataMiningTool 
 
-
-
+How to successfully run the tool: 
+* Make sure that ..\Code folder is your working directory
+* Run main.py script
+* Select the data campaign participant via choicebox 
+* Select the subzone of which you want to visualize the map
+* Select the path/events on an interactive plot with a points picking approach
 
 ![](images/Image.png) 
+
+* Visualize raw data plots
+* Classify with tags the selected path/event via mltchoicebox 
