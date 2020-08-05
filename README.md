@@ -12,6 +12,7 @@ The workflow can be described as follows:
 Data file selection and reading  --> Event extraction via path selection (Interactive GUI)  --> Raw signals plotting --> Raw signals basic statistical feature extraction --> Event classification via tags assignment --> New database populating with extracted features and operations metadata
 
 The tool has been developed with Python 3.7.6
+
 Used packages:
 * numpy
 * pandas
@@ -22,6 +23,19 @@ Used packages:
 * datetime
 * csv
 * Ad hoc built packages
+
+The tool can be considered as a demo for the following cases:
+* From csv to pandas dataframe
+* User selection through easygui modules
+* Interactive figures event handling (hover and picking)
+* Scatter, area, line plots
+* Datetime series reading and formatting
+* Basic statistic analysis
+* Feature extractions 
+* Class and attributes initialization
+* Database populating
+
+
 
 # Usage instructions
 Before to run: 
