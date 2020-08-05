@@ -36,7 +36,8 @@ How to successfully run the tool:
 * Select the subzone of which you want to visualize the map
 * Select the path/events on an interactive plot with a points picking approach
 
-![](images/Image.png) 
+![](/Images/PathSelectorInteractiveGUI.PNG) 
 
 * Visualize raw data plots
 * Classify with tags the selected path/event via mltchoicebox 
+* Check the results into ../Results/EventDtb.csv
