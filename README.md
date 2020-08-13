@@ -5,7 +5,7 @@ Semi-automatic, single threaded application to support data mining operations on
 The passion for human machine interfaces, for the mechatronic sector and for the data analysis, together with the desire of learning about python, bring me to discover hcilab and their public datasets (https://www.hcilab.org/datasets/). In particular, the "Driving Dataset" was very appealing to me. It is part of the results achieved by a research meant to assess the drivers workload. The research focuses on recording drivers physiological data, while at the wheel and by the mean of non-obtrusive approaches. 
 
 Because of its nature, the data set needs of intermediate data mining operations in order to prepare the ground for a statistical data analysis. 
-The hcilabDrivingDtb_DataMiningTool aims to support the Driving Dataset users  with an interactive GUI through the data mining operations. As side objective, the tool wants to provide the user with a lightweight SW module that lends itself well to small adjustments, to add-on expansions and to integration into larger engineering tools frameworks.
+The hcilabDrivingDtb_DataMiningTool aims to support the dataset users during events and event-related features extraction by the means of a lightweight interactive tool. The result of its usage is an auxiliary database to be considered as ground level for event-related statistical analyses. As side objective, the tool wants to provide the user with a lightweight SW module that lends itself well to small adjustments, to add-on expansions and to integration into larger engineering tools frameworks.
 
 The workflow can be described as follows: 
 
